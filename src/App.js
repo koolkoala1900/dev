@@ -24,16 +24,16 @@ function App() {
     const arrayProd = products;
 
     if(method === "Lowest to Highest") {
-        arrayProd.sort(function(x, y){
-          const aPrice = x.price
-          const bPrice = y.price
+        arrayProd.sort(function(a, b){
+          const aPrice = a.price
+          const bPrice = b.price
           return aPrice-bPrice
       })
     }
     else if(method === "Highest to Lowest") {
-        arrayProd.sort(function(x, y){
-          const aPrice = x.price
-          const bPrice = y.price
+        arrayProd.sort(function(a, b){
+          const aPrice = a.price
+          const bPrice = b.price
           return bPrice-aPrice
       })
     }
@@ -41,15 +41,15 @@ function App() {
   }
 
   const setSize = (size) => {
-    const sList = [...selectedSizes];
-    if(!sList.includes(size)) {
-      sList.push(size);
+    const sizes = [...selectedSizes];
+    if(!sizes.includes(size)) {
+      sizes.push(size);
     }
     else {
-      sList.splice(sList.indexOf(size), 1);
+      sizes.splice(sizes.indexOf(size), 1);
     }
-    setProducts(filterList(sList, 'size'));
-    setSelectedSizes(sList);
+    setProducts(filterList(sizes, 'size'));
+    setSelectedSizes(sizes);
   }
 
   const addToCart = (item) => {
@@ -62,7 +62,7 @@ function App() {
     setShoppingCart(proL);
   }
 
-  const updateQ = (item, e) => {
+  const changeQuantity = (item, e) => {
     const proL = [...shoppingCart];
     if(e === '+') {
       proL[proL.indexOf(item)].quantity++;
@@ -78,12 +78,12 @@ function App() {
     setShoppingCart(proL);
     localStorage.setItem("cart", JSON.stringify(proL));
   }
-  
+
   return (
     <div className="App">
       <Sizes selectedSizes={selectedSizes} setSize={setSize} />
       <Filtering products={products} sortProducts={sortProducts} addToCart={addToCart} />
-      <ShoppingCart products={shoppingCart} updateQ={updateQ} />
+      <ShoppingCart products={shoppingCart} changeQuantity={changeQuantity} />
     </div>
   );
 }
