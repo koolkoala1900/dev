@@ -1,0 +1,48 @@
+.App {
+  width: 86%;
+  display: grid;
+  grid-template-columns: 26% auto;
+  margin: 5vh auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.image-card {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+.add-to {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60%;
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  background: lightgray;
+  border: 0;
+  border-radius: 4px;
+}
+.add-to:hover {
+  background: lightskyblue;
+}
+.size:hover {
+  border: 1px solid lightskyblue;
+}
+.size {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: 0;
+  font-size: 13px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-weight: bold;
+} 
+
+
+
