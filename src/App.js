@@ -78,7 +78,7 @@ function App() {
     setShoppingCart(proL);
     localStorage.setItem("cart", JSON.stringify(proL));
   }
-
+  
   return (
     <div className="App">
       <Sizes selectedSizes={selectedSizes} setSize={setSize} />
