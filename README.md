@@ -15,12 +15,26 @@ I used easy and bright pictures, clean fonts, big font size, and an overall intu
 
 ### Organization of Components
 I have many components: Card, Filtering, filterList, ItemCart, ProdList, ShoppingCart, and Sizes.
+
+
 Card: This contains the reference to the styling in app.css and is responsible for the data in the json file to show up.
+
+
 Filtering: This is responsible for the Sorting by Price High to Low and Low to High
+
+
 filterList: This is responsible for discerning which items should be displayed according to which filter is being applied
+
+
 ItemCart: This is responsible for getting the data displayed of items that have been added to cart, as well as the remove item from cart button
+
+
 ProdList: This is responsible for the mapping of the items to add to the shopping cart
+
+
 ShoppingCart: This is responsible for the styling and displaying of the shopping cart and grand total
+
+
 Sizes: This is responsible for creating and keeping track of a sizes array and mapping that we use for the filtering.
 
 
