@@ -5,7 +5,7 @@ https://koolkoala1900.github.io/dev/
 
 ### Goal and Value of the Application
 The goal of the application is to be able to sort, filter, and add/remove clothing items and accessories to my cart.
-I created filters for the size of the item and whether or not the item is an accessory or clothing item.
+I created two filters: for the size of the item and whether or not the item is an accessory or clothing item.
 You are also able to sort by price high to low or low to high.
 
 ### Usability Principles Considered
