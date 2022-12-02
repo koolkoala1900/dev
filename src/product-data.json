@@ -1,0 +1,98 @@
+[
+  {
+      "id": "1",
+      "title": "Albie Shirt",
+      "image": "images/blueshirt.png",
+      "size": "M",
+      "price": 20.00,
+      "quantity": 0
+  },
+  {
+      "id": "2",
+      "title": "Tanya Shirt",
+      "image": "images/bowlingshirt.png",
+      "size": "L",
+      "price": 30.00,
+      "quantity": 0
+  },
+  {
+      "id": "3",
+      "title": "Dana Hat",
+      "image": "images/buckethat.png",
+      "size": "Accessory",
+      "price": 12.00,
+      "quantity": 0
+  },
+  {
+      "id": "4",
+      "title": "Talia Shirt",
+      "image": "images/greenshirt.png",
+      "size": "L",
+      "price": 27.00,
+      "quantity": 0
+  },
+  {
+      "id": "5",
+      "title": "Talia Shorts",
+      "image": "images/greenshorts.png",
+      "size": "M",
+      "price": 37.00,
+      "quantity": 0
+  },
+  {
+      "id": "6",
+      "title": "Kyler Beanie",
+      "image": "images/purplebeanie.png",
+      "size": "Accessory",
+      "price": 17.00,
+      "quantity": 0
+  },
+  {
+      "id": "7",
+      "title": "Ruby Boots",
+      "image": "images/redboots.png",
+      "size": "L",
+      "price": 40.00,
+      "quantity": 0
+  },
+  {
+      "id": "8",
+      "title": "Tyler Tank",
+      "image": "images/redtank.png",
+      "size": "M",
+      "price": 10.00,
+      "quantity": 0
+  },
+  {
+      "id": "9",
+      "title": "Samantha Slippers",
+      "image": "images/slippers.png",
+      "size": "S",
+      "price": 24.00,
+      "quantity": 0
+  },
+  {
+      "id": "10",
+      "title": "Stuart Sunnies",
+      "image": "images/sunglasses.png",
+      "size": "Accessory",
+      "price": 8.00,
+      "quantity": 0
+  },
+  {
+      "id": "11",
+      "title": "Coraline Hoodie",
+      "image": "images/yellowhoodie.png",
+      "size": "S",
+      "price": 45.00,
+      "quantity": 0
+  },
+  {
+    "id": "12",
+    "title": "Amelia Dress",
+    "image": "images/yellowdress.png",
+    "size": "L",
+    "price": 16.00,
+    "quantity": 0
+}
+]
