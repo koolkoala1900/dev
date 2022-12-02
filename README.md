@@ -5,7 +5,8 @@ https://koolkoala1900.github.io/dev/
 
 ### Goal and Value of the Application
 The goal of the application is to be able to sort, filter, and add/remove clothing items and accessories to my cart.
-I created filters for the size of the item and you are also able to sort by price high to low or low to high.
+I created filters for the size of the item and whether or not the item is an accessory or clothing item.
+You are also able to sort by price high to low or low to high.
 
 ### Usability Principles Considered
 I wanted to make the app as intuitive as possible, so I created neat components for each of the items and its features like size, price, name, quantity, etc.
@@ -20,10 +21,10 @@ I have many components: Box, Filtering, ItemCart, ProdMap, ShoppingCart, SizingL
 Box: This contains the reference to the styling in app.css and is responsible for the data in the json file to show up. I used material UI Card for this.
 
 
-Filtering: This is responsible for the Sorting by Price High to Low and Low to High
+Filtering: This is responsible for the correct filtering taking place.
 
 
-Sorting: This is responsible for discerning which items should be displayed according to which filter is being applied
+Sorting: This is responsible for discerning which items should be displayed according to which sort is being applied
 
 
 ItemCart: This is responsible for getting the data displayed of items that have been added to cart, as well as the remove item from cart button. I used MaterialUI Card for this.
@@ -41,7 +42,7 @@ Images: I used images I found at this url: https://www.freepik.com/free-vector/s
 
 
 ### How Data is Passed Down Through Components
-First of all, all data is created in product-data.json.
+First of all, all data is created in product-data.json and passed through props.
 Then, this data is used to create and fill the Box and Sorting files with the data of these products.
 Then, the data from Box is used to map the shopping list items in ProdMap.
 This (ProdMap) is then used in Filtering to be able to sort by the price.
